@@ -1,0 +1,61 @@
+[class*="container"] {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+body {
+   background: url("../img/nature.jpeg") 0 0 no-repeat;
+   height: 100%;
+}
+.header {
+   position: relative;
+}
+.header__sun {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.header__sun img {
+   width: 300px;
+   height: 300px;
+}
+
+.header__plane {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+.header__plane img {
+   width: 350px;
+   height: 300px;
+}
+.main__container {
+   position: relative;
+}
+.main__car {
+   position: absolute;
+   top: 480px;
+   left: 250px;
+   z-index: 1;
+}
+.main__car img {
+   width: 600px;
+   height: 300px;
+}
+.main__bed {
+   position: absolute;
+   top: 550px;
+   left: 250px;
+}
+.main__bed img {
+   width: 600px;
+   height: 300px;
+}
+.main__fish {
+   position: absolute;
+   top: 650px;
+   left: 0;
+}
+.main__fish img {
+   width: 200px;
+   height: 100px;
+}
